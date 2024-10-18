@@ -30,6 +30,7 @@ body{
   display: flex;
   align-items: center;
 
+
 }
 
 .column {
@@ -46,5 +47,87 @@ body{
 
 }
 .right {
-  
+  padding-left: 20px;
 }
+.login-panel {
+  background-color: #FFF;
+  border: 1px solid #FFF;;
+  text-align: center;
+  padding: 20px 0;
+}
+.logo-img {
+  width: 175px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+input[type="text"], input[type="password"] {
+  background-color: #FFF;
+  border: 1px solid rgb(236, 234, 234);
+  height: 40;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 13px;
+  width: 320px;
+  color: #000000;
+}
+input[type="password"]::placeholder , input[type="text"]::placeholder {
+  color: rgb(165, 164, 164);
+
+}
+input[type="password"]:focus, input[type="text"]:focus {
+  outline: 0;
+  border: 1px solid #a1a1a1;
+}
+
+input[type="submit"] {
+  width: 320px;
+  background-color: #3c96ed;
+  color: #FFFFFF;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.infobox {
+  background-color: #FFF;
+  height: 60px;
+  border: 1px solid rgb(236, 234, 234);
+  margin: 10px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infobox p {
+  user-select: none;
+}
+.infobox p a{
+  font-weight: bold;
+  user-select: none;
+}
+
+.get-app-panel {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.app-buttons {
+  margin-top: 16px;
+}
+.app-buttons img {
+  height: 40px;
+  padding: 0 2px;
+}
+
+
+
+
