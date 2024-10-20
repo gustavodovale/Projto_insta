@@ -209,7 +209,6 @@ footer a {
 
 
 
-
 /* RESPONSIVIDADE */
 @media (max-width: 850px) {
   .left {
@@ -243,4 +242,18 @@ footer a {
     }
   }
 
+  @media (min-width: 412px) {
+    .footer-inner {
+      margin-top: -100px;
+    }
+  }
 
+  @media (max-width:360px){
+    footer {line-height: 25px;}
+
+    input[type="password"]{
+      width: 100%;
+    
+  }
+
+  }
