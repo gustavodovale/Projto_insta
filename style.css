@@ -10,7 +10,8 @@ a{
 }
 
 body{
-  background: #FAFAFA;
+  --corBranca: #fff;
+  background: var(--corBranca);
   height: 100%;
   width: 100%;
   margin:0;
@@ -50,8 +51,8 @@ body{
   padding-left: 20px;
 }
 .login-panel {
-  background-color: #FFF;
-  border: 1px solid #FFF;;
+  background-color: var(--corBranca);
+  border: 1px solid var(--corBranca);
   text-align: center;
   padding: 20px 0;
 }
@@ -66,7 +67,7 @@ form {
 
 }
 input[type="text"], input[type="password"] {
-  background-color: #FFF;
+  background-color: var(--corBranca);
   border: 1px solid rgb(236, 234, 234);
   height: 40;
   border-radius: 4px;
@@ -74,7 +75,8 @@ input[type="text"], input[type="password"] {
   padding: 10px;
   font-size: 13px;
   width: 320px;
-  color: #000000;
+  color: var(--corPreta);
+  --corPreta : #000000;
 }
 input[type="password"]::placeholder , input[type="text"]::placeholder {
   color: rgb(165, 164, 164);
@@ -88,7 +90,7 @@ input[type="password"]:focus, input[type="text"]:focus {
 input[type="submit"] {
   width: 320px;
   background-color: #3c96ed;
-  color: #FFFFFF;
+  color: var(--corBranca);
   margin-top: 10px;
   border: 0;
   border-radius: 4px;
@@ -99,7 +101,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 .infobox {
-  background-color: #FFF;
+  background-color: var(--corBranca);
   height: 60px;
   border: 1px solid rgb(236, 234, 234);
   margin: 10px auto 0;
@@ -134,7 +136,7 @@ footer{
   margin-top: -50px;
 }
 footer a {
-  color: #000;
+  color: var(--corPreta);
   text-transform: uppercase;
   font-weight: bold;
   margin-right: 8px;
@@ -257,3 +259,5 @@ footer a {
   }
 
   }
+
+  
